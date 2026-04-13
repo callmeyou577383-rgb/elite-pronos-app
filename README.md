@@ -30,3 +30,19 @@ npm start
 
 ## 📁 Structure
 
+## 🔧 Technologies
+
+- **Frontend**: React 18, Vite, TypeScript, Tailwind CSS
+- **Backend**: Express, Firebase, Stripe
+- **Auth**: Firebase Authentication + JWT
+- **Database**: Firestore
+- **Payments**: Stripe
+
+## 📝 Variables d'environnement
+
+Voir `.env.example` pour tous les paramètres requis.
+
+## 📞 Support
+
+Pour toute question, contacte l'équipe Elite Pronos.
+
