@@ -1,0 +1,26 @@
+{
+  "name": "elite-pronos-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec node --loader ts-node/esm src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "firebase-admin": "^11.0.0",
+    "stripe": "^12.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0",
+    "nodemon": "^2.0.0"
+  }
+}
